@@ -15,9 +15,9 @@ public class DefaultController {
         return "index";
     }
 
-    @GetMapping(value = '/About')
+    @GetMapping(value = '/about')
     ModelAndView about() {
-        ModelAndView modelAndView = new ModelAndView('About');
+        ModelAndView modelAndView = new ModelAndView('about');
 
         String name = "Marsels";
         String surname = "Ziediņš";
