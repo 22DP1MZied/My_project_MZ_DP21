@@ -15,7 +15,7 @@ public class DefaultController {
         return "index";
     }
 
-    @GetMapping(value = '/about')
+    @GetMapping(value = "/about")
     ModelAndView about() {
         ModelAndView modelAndView = new ModelAndView('about');
 

@@ -1,5 +1,6 @@
-public class Money {
+package rvt;
 
+public class Money {
     private final int euros;
     private final int cents;
 
